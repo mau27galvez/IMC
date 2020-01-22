@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, 
+    initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+
+        <!--estilos-->
+        <link rel="stylesheet" type="text/css" href="./css/style.css" />
+
+
+    <title>IMC</title>
+</head>
+<body>
+    <section class="main">
+        <div class="data">
+            <div class="input">
+                <form action="#">
+                    <label for="peso">Peso:</label>
+                    <input type="number" name="peso" id="peso" step="0.01" min="0" max="600" />
+
+                    <label for="altura">Altura:</label>
+                    <input type="number" name="altura" id="altura" step="0.01" min="0" max="5" />
+
+                    <input type="button" value="Calcular" id="calcular" />
+                </form>
+            </div>
+
+            <div class="output">
+                <h3>Resultados:</h3>
+
+                <p>
+                    <ul>
+                        <li id="resultadoPeso">Peso:</li>
+                        <li id="resultadoAltura">Altura:</li>
+                        <li id="imcResultado">IMC:</li>
+                        <li id="diagnosticoS"></li>
+                        <li id="resultadoPesoideal">Peso ideal:</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+
+        <div class="graphics">
+            <div class="container">
+                <div class="value" id="value">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
