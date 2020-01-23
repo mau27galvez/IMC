@@ -69,4 +69,19 @@ body
     cursor: pointer;
 }
 
-.main .data .input
+.main .data .output h3
+{
+    margin: 25px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main .data .output ul
+{
+    list-style: none;
+}
+
+.main .data .output ul li
+{
+    margin-bottom: 10px;
+}
