@@ -11,7 +11,7 @@ body
 {
     font-family: Helvetica, sans-serif, Arial;
     font-size: 18px;
-    background-color: #f7f7f7;
+    background-color: #fff;
 }
 
 .main
@@ -88,6 +88,11 @@ body
 
 @media screen and (max-width: 550px)
 {
+    .main
+    {
+        padding: 0;
+    }
+
     .main .data
     {
         width: 75%;
