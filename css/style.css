@@ -26,8 +26,9 @@ body
     color: #fff;
     border-radius: 5px;
     width: 50%;
-    margin: 40px auto;
+    margin: 40px;
     padding: 25px;
+    float: left;
 }
 
 .main .data .input
@@ -86,7 +87,34 @@ body
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 550px)
+.main .graphics .container
+{
+    height: 483px;
+    width: 300px;
+    float: left;
+    margin: 40px;
+    border: 1px solid #ccc;
+    border-top: 0;
+}
+
+@media screen and (max-width: 962px)
+{
+    .main .data
+    {
+        float: none;
+        width: 70%;
+        margin: 40px auto;
+    }
+
+    .main .graphics .container
+    {
+        float: none;
+        width: 50%;
+        margin: 40px auto;
+    }
+}
+
+@media screen and (max-width: 600px)
 {
     .main
     {
